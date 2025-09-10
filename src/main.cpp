@@ -17,17 +17,16 @@ LcdMenu menu(renderer);
 // some strings for displaying the features
 char programVersion[] = "0.0.1";
 char featureString[] = "f: ";
-//char newFeatureA[] = "A";
+char newFeatureA[] = "A";
 //char newFeatureB[] = "B";
 
 /*-----------------------------------------------------------------------------
  *  Function with new feature
- -----------------------------------------------------------------------------*
+ -----------------------------------------------------------------------------*/
 void fA()
 {
     strcat(featureString, newFeatureA);
 }
-*/
 
 /*-----------------------------------------------------------------------------
  *  Function with new feature
