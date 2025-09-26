@@ -15,10 +15,10 @@ CharacterDisplayRenderer renderer(new LiquidCrystalAdapter(&lcd, 16, 2), 16, 2);
 LcdMenu menu(renderer);
 
 // some strings for displaying the features
-char programVersion[] = "0.0.1";
+char programVersion[] = "2.0.0-Team-1";
 char featureString[] = "f: ";
-char newFeatureX[] = "X-1";
-//char newFeatureB[] = "B";
+char newFeatureX[] = "X1";
+//char newFeatureB[] = "B"; 
 
 /*-----------------------------------------------------------------------------
  *  Function with new feature
