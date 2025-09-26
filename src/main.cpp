@@ -18,7 +18,7 @@ LcdMenu menu(renderer);
 char programVersion[] = "2.0.0-Team-1";
 char featureString[] = "f: ";
 char newFeatureX[] = "X1";
-//char newFeatureB[] = "B";
+//char newFeatureB[] = "B"; 
 
 /*-----------------------------------------------------------------------------
  *  Function with new feature
