@@ -18,7 +18,7 @@ LcdMenu menu(renderer);
 char programVersion[] = "0.0.1";
 char featureString[] = "f: ";
 char newFeatureX[] = "X-1";
-//char newFeatureB[] = "B";
+char newFeatureB[] = "B";
 
 /*-----------------------------------------------------------------------------
  *  Function with new feature
@@ -30,12 +30,12 @@ void fX()
 
 /*-----------------------------------------------------------------------------
  *  Function with new feature
- -----------------------------------------------------------------------------*
+ -----------------------------------------------------------------------------*/
 void fB()
 {
     strcat(featureString, newFeatureB);
 }
-*/
+
 /*-----------------------------------------------------------------------------
  *  setup function
  -----------------------------------------------------------------------------*/
@@ -50,7 +50,7 @@ void setup()
 
     // integrate new features hereafter
    fX();
-//   fB();
+   fB();
 
     // display new features
     lcd.setCursor(0,1);
